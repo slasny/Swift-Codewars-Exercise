@@ -1,0 +1,10 @@
+func check<T: Equatable>(_ a: [T], _ x: T) -> Bool {
+    // Your code here
+  
+    if a.contains(x) {
+      return true
+    } else {
+      return false
+    }
+  
+  }
